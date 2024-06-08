@@ -48,13 +48,9 @@ footer {
     /* Define a cor de fundo do rodapé */
     background-color: wheat;
 
-    /* Define o alinhamento do texto no centro do rodapé */
-    text-align: center;
-
-    /* Define o preenchimento interno superior e inferior do rodapé como 10 pixels e 0 pixels nas laterais */
+    /* Define o preenchimento interno superior e inferior do rodapé como 20 pixels e 0 pixels nas laterais */
     padding: 20px 0;
-    /* Adiciona espaço entre o rodapé e o conteúdo acima */
-    margin-top: 80px;
+    
 }
 
 footer a {
