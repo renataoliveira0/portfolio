@@ -1,0 +1,100 @@
+body {
+    color: white;
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid magenta;
+}
+
+.center {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+h1 {
+    color: magenta;
+}
+
+h2 {
+    color: magenta;
+}
+
+footer img {
+    width: 25px;
+    height: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    /* Define a cor de fundo do rodapé */
+    background-color: wheat;
+
+    /* Define o alinhamento do texto no centro do rodapé */
+    text-align: center;
+
+    /* Define o preenchimento interno superior e inferior do rodapé como 10 pixels e 0 pixels nas laterais */
+    padding: 20px 0;
+    /* Adiciona espaço entre o rodapé e o conteúdo acima */
+    margin-top: 80px;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: magenta;
+    background-color: wheat;
+    border-radius: 20px;
+}
+
+nav a {
+    color: black;
+    padding: 10px 20px;
+    /* Preenchimento interno do botão */
+    transition: all 0.3s ease;
+    /* Transição suave para mudanças de estilo */
+}
+
+
+
+h3 {
+    color: black;
+}
+
+p {
+    line-height: 1.5;
+    color: black;
+}
+
+*{
+    margin: 0;
+}
