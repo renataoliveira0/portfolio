@@ -2,19 +2,14 @@ body {
     color: black; /* Cor do texto */
     background-color: pink; /* Cor de fundo do corpo da página */
     font-family: Arial, Helvetica, sans-serif; /* Família de fontes */
-    margin: 0; /* Remove as margens padrão do corpo */
-    padding: 0; /* Remove o preenchimento padrão do corpo */
-    display: flex; /* Torna o corpo um contêiner flexível */
-    flex-direction: column; /* Define a direção do layout como coluna */
-    min-height: 105vh; /* Define a altura mínima do corpo como 105% da altura da viewport */
-}
+   }
 
 ul {
     display: flex; /* Torna a lista um contêiner flexível */
     justify-content: space-between; /* Distribui uniformemente os itens ao longo do eixo principal (horizontalmente) */
     list-style-type: none; /* Remove os marcadores de lista */
     align-items: center; /* Alinha os itens verticalmente no centro */
-    padding: 16px; /* Adiciona preenchimento interno à lista */
+    padding: 20px; /* Adiciona preenchimento interno à lista */
 }
 
 a {
@@ -30,7 +25,6 @@ header img {
 
 .center {
     text-align: center; /* Alinha o texto ao centro */
-    margin: 50px 0px; /* Define as margens superior e inferior */
 }
 
 h1 {
@@ -66,7 +60,6 @@ footer p {
 
 .conteudo {
     padding: 0px 50px; /* Adiciona preenchimento interno ao conteúdo */
-    flex: 1; /* Faz o conteúdo ocupar o espaço disponível restante */
 }
 
 nav a:hover {
@@ -85,21 +78,16 @@ p {
     line-height: 1.5; /* Define a altura da linha para o texto dos parágrafos */
 }
 
-* {
-    margin: 0; /* Remove as margens padrão de todos os elementos */
-    box-sizing: border-box; /* Define o modelo de caixa como border-box para garantir que o preenchimento e a borda sejam incluídos nas dimensões totais dos elementos */
-}
 
-#backToTopBtn {
-    display: block; /* Exibe o botão */
+
+#TopBtn {
     position: fixed; /* Posiciona o botão fixo na tela */
     bottom: 20px; /* Distância do botão em relação ao fundo da janela */
     right: 30px; /* Distância do botão em relação à direita da janela */
-    z-index: 99; /* Define a ordem de empilhamento do botão */
     width: 50px; /* Largura do botão */
     height: 50px; /* Altura do botão */
     background: url('./img/topo.png') no-repeat center center; /* Define a imagem de fundo do botão */
     background-size: contain; /* Ajusta o tamanho da imagem de fundo para caber no botão */
     cursor: pointer; /* Altera o cursor para um ponteiro ao passar sobre o botão */
-    border: none; /* Remove a borda do botão */
+    
 }
