@@ -2,6 +2,11 @@ body {
     color: black;
     background-color: pink;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 ul {
@@ -60,15 +65,17 @@ footer a {
 
 footer p {
     margin-top: 2px;
+    
 }
 
-.container {
+.conteudo {
     padding: 0px 50px;
+    flex: 1; 
 }
 
 nav a:hover {
-    color: magenta;
-    background-color: wheat;
+    color: black;
+    background-color: magenta;
     border-radius: 20px;
 }
 
@@ -87,4 +94,28 @@ p {
 
 *{
     margin: 0;
+}
+
+
+
+#backToTopBtn {
+    display: block; /* Exibe o botão */
+    position: fixed; /* Posiciona o botão fixo no canto inferior direito */
+    bottom: 20px; /* Define a distância do botão em relação ao fundo da janela */
+    right: 30px; /* Define a distância do botão em relação à direita da janela */
+    z-index: 99; /* Garante que o botão fique acima de outros elementos */
+    width: 50px; /* Define a largura do botão */
+    height: 50px; /* Define a altura do botão */
+    background: url('./img/topo.png') no-repeat center center; /* Define a imagem de fundo do botão */
+    background-size: contain; /* Ajusta o tamanho da imagem de fundo para caber no botão */
+    cursor: pointer; /* Muda o cursor para ponteiro ao passar sobre o botão */
+    border: none; /* Remove qualquer borda do link */
+}
+
+.rodape {
+    background-color: magenta;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
 }
