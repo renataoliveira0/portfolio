@@ -50,11 +50,9 @@ footer img {
 footer {
     display: flex;
     justify-content: center;
-    /* Define a cor de fundo do rodapé */
-    background-color: wheat;
-
     /* Define o preenchimento interno superior e inferior do rodapé como 20 pixels e 0 pixels nas laterais */
     padding: 20px 0;
+    position: relative; 
     
 }
 
@@ -94,6 +92,8 @@ p {
 
 *{
     margin: 0;
+    box-sizing: border-box; /* Para garantir que padding e border sejam incluídos nas dimensões totais dos elementos */
+
 }
 
 
