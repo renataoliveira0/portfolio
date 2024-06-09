@@ -1,118 +1,105 @@
 body {
-    color: black;
-    background-color: pink;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 105vh;
+    color: black; /* Cor do texto */
+    background-color: pink; /* Cor de fundo do corpo da página */
+    font-family: Arial, Helvetica, sans-serif; /* Família de fontes */
+    margin: 0; /* Remove as margens padrão do corpo */
+    padding: 0; /* Remove o preenchimento padrão do corpo */
+    display: flex; /* Torna o corpo um contêiner flexível */
+    flex-direction: column; /* Define a direção do layout como coluna */
+    min-height: 105vh; /* Define a altura mínima do corpo como 105% da altura da viewport */
 }
 
 ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    padding: 16px;
+    display: flex; /* Torna a lista um contêiner flexível */
+    justify-content: space-between; /* Distribui uniformemente os itens ao longo do eixo principal (horizontalmente) */
+    list-style-type: none; /* Remove os marcadores de lista */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    padding: 16px; /* Adiciona preenchimento interno à lista */
 }
 
 a {
-
-    text-decoration: none;
+    text-decoration: none; /* Remove a decoração de texto dos links */
 }
 
 header img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid magenta;
+    width: 150px; /* Largura da imagem do cabeçalho */
+    height: 150px; /* Altura da imagem do cabeçalho */
+    border-radius: 50%; /* Borda circular para a imagem do cabeçalho */
+    border: 5px solid magenta; /* Borda sólida de 5px na cor magenta */
 }
 
 .center {
-    text-align: center;
-    margin: 50px 0px;
+    text-align: center; /* Alinha o texto ao centro */
+    margin: 50px 0px; /* Define as margens superior e inferior */
 }
 
 h1 {
-    color: magenta;
+    color: magenta; /* Cor do texto do cabeçalho */
 }
 
 h2 {
-    color: magenta;
+    color: magenta; /* Cor do texto do cabeçalho */
 }
 
 footer img {
-    width: 25px;
-    height: 25px;
+    width: 25px; /* Largura da imagem do rodapé */
+    height: 25px; /* Altura da imagem do rodapé */
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: magenta;
-    padding: 20px 0;
-    width: 100%;
-    
+    display: flex; /* Torna o rodapé um contêiner flexível */
+    justify-content: center; /* Alinha os itens do rodapé ao centro horizontalmente */
+    align-items: center; /* Alinha os itens do rodapé ao centro verticalmente */
+    background-color: magenta; /* Cor de fundo do rodapé */
+    padding: 20px 0; /* Adiciona preenchimento interno ao rodapé */
+    width: 100%; /* Largura total do rodapé */
 }
 
-
-
 footer a {
-    margin: 20px;
-    text-align: center;
+    margin: 20px; /* Adiciona margem ao redor dos links do rodapé */
+    text-align: center; /* Alinha o texto ao centro */
 }
 
 footer p {
-    margin-top: 2px;
-    
+    margin-top: 2px; /* Adiciona uma pequena margem superior para separar os parágrafos no rodapé */
 }
 
 .conteudo {
-    padding: 0px 50px;
-    flex: 1; 
+    padding: 0px 50px; /* Adiciona preenchimento interno ao conteúdo */
+    flex: 1; /* Faz o conteúdo ocupar o espaço disponível restante */
 }
 
 nav a:hover {
-    color: black;
-    background-color: magenta;
-    border-radius: 20px;
+    color: black; /* Cor do texto do link quando passa o mouse por cima */
+    background-color: magenta; /* Cor de fundo do link quando passa o mouse por cima */
+    border-radius: 20px; /* Adiciona bordas arredondadas aos links quando passa o mouse por cima */
 }
 
 nav a {
-    color: black;
-    padding: 10px 20px;
-    /* Preenchimento interno do botão */
-    transition: all 0.3s ease;
-    /* Transição suave para mudanças de estilo */
+    color: black; /* Cor do texto dos links */
+    padding: 10px 20px; /* Adiciona preenchimento interno aos links */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para as mudanças de estilo */
 }
-
 
 p {
-    line-height: 1.5; 
+    line-height: 1.5; /* Define a altura da linha para o texto dos parágrafos */
 }
 
-*{
-    margin: 0;
-    box-sizing: border-box; /* Para garantir que padding e border sejam incluídos nas dimensões totais dos elementos */
-
+* {
+    margin: 0; /* Remove as margens padrão de todos os elementos */
+    box-sizing: border-box; /* Define o modelo de caixa como border-box para garantir que o preenchimento e a borda sejam incluídos nas dimensões totais dos elementos */
 }
-
-
 
 #backToTopBtn {
     display: block; /* Exibe o botão */
-    position: fixed; /* Posiciona o botão fixo no canto inferior direito */
-    bottom: 20px; /* Define a distância do botão em relação ao fundo da janela */
-    right: 30px; /* Define a distância do botão em relação à direita da janela */
-    z-index: 99; /* Garante que o botão fique acima de outros elementos */
-    width: 50px; /* Define a largura do botão */
-    height: 50px; /* Define a altura do botão */
+    position: fixed; /* Posiciona o botão fixo na tela */
+    bottom: 20px; /* Distância do botão em relação ao fundo da janela */
+    right: 30px; /* Distância do botão em relação à direita da janela */
+    z-index: 99; /* Define a ordem de empilhamento do botão */
+    width: 50px; /* Largura do botão */
+    height: 50px; /* Altura do botão */
     background: url('./img/topo.png') no-repeat center center; /* Define a imagem de fundo do botão */
     background-size: contain; /* Ajusta o tamanho da imagem de fundo para caber no botão */
-    cursor: pointer; /* Muda o cursor para ponteiro ao passar sobre o botão */
-    border: none; /* Remove qualquer borda do link */
+    cursor: pointer; /* Altera o cursor para um ponteiro ao passar sobre o botão */
+    border: none; /* Remove a borda do botão */
 }
-
-
