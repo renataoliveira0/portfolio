@@ -7,6 +7,17 @@ body {
     flex-direction: column; /* Disposição vertical dos filhos do body */
 }
 
+
+footer {
+    display: flex; /* Torna o rodapé um contêiner flexível */
+    justify-content: center; /* Alinha os itens do rodapé ao centro horizontalmente */
+    align-items: center; /* Alinha os itens do rodapé ao centro verticalmente */
+    background-color: magenta; /* Cor de fundo do rodapé */
+    padding: 20px 0; /* Adiciona preenchimento interno ao rodapé */
+    width: 100%; /* Largura total do rodapé */
+    margin-top: auto;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -33,6 +44,8 @@ header img {
     border: 5px solid magenta; /* Borda sólida de 5px na cor magenta */
 }
 
+
+
 .center {
     text-align: center; /* Alinha o texto ao centro */
 }
@@ -56,6 +69,7 @@ h3 {
 }
 
 h2 {
+    
     margin: 10px;
     color: magenta; /* Cor do texto do cabeçalho */
 }
@@ -65,15 +79,6 @@ footer img {
     height: 25px; /* Altura da imagem do rodapé */
 }
 
-footer {
-    display: flex; /* Torna o rodapé um contêiner flexível */
-    justify-content: center; /* Alinha os itens do rodapé ao centro horizontalmente */
-    align-items: center; /* Alinha os itens do rodapé ao centro verticalmente */
-    background-color: magenta; /* Cor de fundo do rodapé */
-    padding: 20px 0; /* Adiciona preenchimento interno ao rodapé */
-    width: 100%; /* Largura total do rodapé */
-    margin-top: auto;
-}
 
 footer a {
     margin: 20px; /* Adiciona margem ao redor dos links do rodapé */
